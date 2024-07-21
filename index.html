@@ -472,16 +472,34 @@
             </li>
           </ul>
         </div>
-      </div>
-      <div class="footer-Subscribe">
-        <form action="">
+        <div class="footer-Subscribe">
+        <form action="footer-form">
            <p>Subscribe</p>
-           <label for="Subscribe" ></label>
+           <label for="Subscribe"></label>
            <input
                   type="email"
                   class="modal-subscribe"
                   name="Email"
-                  id="Email"
+                  id="E-mail"
+                  placeholder="E-mail"
+                />
+                 <button type="button" class="footer-btn">Subscribe 
+                  <svg class="icon-send" width="24" height="20">
+                    <use href="./images/icons.svg#icon-send"></use>
+                  </svg>
+                 </button>
+        </form>
+      </div>
+      </div>
+      <div class="footer-Subscribe">
+        <form action="footer-form">
+           <p>Subscribe</p>
+           <label for="Subscribe"></label>
+           <input
+                  type="email"
+                  class="modal-subscribe"
+                  name="Email"
+                  id="E-mail"
                   placeholder="E-mail"
                 />
                  <button type="button" class="footer-btn">Subscribe 
@@ -501,8 +519,8 @@
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>
-        <form class="overlay-form">
-            <div class="form-field">
+        <form action="overlay-form" class="overlay-form">
+            <div  class="form-field">
               <label for="Name" class="label">Name</label>
               <div class="modal-wrap">
                 <input
@@ -569,8 +587,8 @@
                </svg></span>I accept the terms and conditions of the Privacy Policy</label>
         </div>
             <button type="submit" class="terms-btn">send</button>
-        </form>
+          </form>
       </div>
-    </div>
+      </div>
   </body>
 </html>
