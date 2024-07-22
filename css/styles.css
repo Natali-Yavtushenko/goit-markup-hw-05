@@ -507,7 +507,7 @@ img {
   gap: 24px;
 }
 
-.Subscribe-text {
+.subscribe-text {
   margin-bottom: 16px;
   font-weight: 500;
   font-size: 16px;
@@ -520,7 +520,7 @@ img {
   fill: #f4f4fd;
 }
 
-.footer-Subscribe {
+.footer-subscribe {
   margin-left: auto;
   font-family: var(--font-family);
   font-weight: 500;
